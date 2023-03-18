@@ -16,10 +16,10 @@
   
   
   <div >
+  <button class="all-buttons" @click="mySetInput">Set-num</button>
   <button class="all-buttons" @click="myIncrement">+</button>
   <button class="all-buttons" @click="myDecrement">-</button>
   <button class="all-buttons" @click="myReset">Reset</button>
-  <button class="all-buttons" @click="mySetInput">Set-num</button>
   </div>
 
   <div class="history-box">
